@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kauã R. Rocha</title>
+<style>
+:root{
+  --bg:#FFFFFF; --ink:#1A1A1A; --muted:#5E5E5E; --link:#0B5CAD;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#141414;--ink:#ECECEC;--muted:#A0A0A0;--link:#7DB7F0;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#141414;--ink:#ECECEC;--muted:#A0A0A0;--link:#7DB7F0;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6;font-size:17px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+main{max-width:600px;margin:0 auto;padding:40px 22px 64px}
+h1{font-size:2rem;margin:0 0 2px;line-height:1.2}
+.sub{color:var(--muted);margin:0 0 20px}
+h2{font-size:1.05rem;margin:32px 0 8px}
+p,ul{margin:0 0 8px}
+ul{padding-left:1.2em}
+a{color:var(--link)}
+a:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.contact{list-style:none;padding:0}
+</style>
+</head>
+<body>
+<main>
+  <h1>Kauã R. Rocha</h1>
+  <p class="sub">Estudante de Engenharia da Computação, FMU</p>
+  <p>Busco enriquecer meus conhecimentos em tecnologia na prática, em equipe, seja em estágio ou não.</p>
+
+  <ul class="contact">
+    <li>Email: <a href="mailto:rocharobertokaua.ss@gmail.com">rocharobertokaua.ss@gmail.com</a></li>
+    <li>GitHub: <a href="https://github.com/rocha-kaua" target="_blank" rel="noopener">@rocha-kaua</a></li>
+    <li>LinkedIn: <a href="https://www.linkedin.com/in/rocha-kaua/" target="_blank" rel="noopener">@rocha-kaua</a></li>
+  </ul>
+
+  <h2>Inglês</h2>
+  <p>C1 (avançado), 65/100 no EF SET. <a href="https://cert.efset.org/en/ChUWqp" target="_blank" rel="noopener">Ver certificado</a></p>
+
+  <h2>Projetos</h2>
+  <ul>
+    <li>Braço robótico com Arduino (NRF24L01 e servomotores)</li>
+    <li>Clone de Pac-Man em JavaFX, com tema de Touhou</li>
+    <li>Servidor Pi-hole self-hosted</li>
+    <li>Servidor de Minecraft em Ubuntu sem interface gráfica</li>
+  </ul>
+
+  <h2>Experiência</h2>
+  <p>Indústria têxtil (costura), 6 meses: apoio geral em várias frentes, trabalhando em equipe.</p>
+
+  <h2>Conhecimentos</h2>
+  <ul>
+    <li>C, Java e Linux (nível básico)</li>
+    <li>Homelab e administração de servidores</li>
+  </ul>
+</main>
+</body>
+</html>
